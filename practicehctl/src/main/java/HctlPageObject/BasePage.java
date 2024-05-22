@@ -15,7 +15,7 @@ public class BasePage {
 
 
 
-	@BeforeClass
+	@BeforeSuit
 	public void Setup() {
 	WebDriverManager.chromedriver().setup();
 	WebDriverManager.firefoxdriver().setup();
