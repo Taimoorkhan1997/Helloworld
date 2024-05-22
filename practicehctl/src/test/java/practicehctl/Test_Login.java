@@ -15,7 +15,7 @@ public class Test_Login extends BasePage{
 		
 
 	
-		@BeforeMethod
+	@Test
         public void loginTest() {
 
             LoginPage loginPage = new LoginPage(driver);
